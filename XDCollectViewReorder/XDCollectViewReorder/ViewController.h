@@ -13,3 +13,8 @@
 
 @end
 
+@interface TestCollectionViewCell : UICollectionViewCell
+
+@property (nonatomic, strong) UILabel *textLabel;
+
+@end

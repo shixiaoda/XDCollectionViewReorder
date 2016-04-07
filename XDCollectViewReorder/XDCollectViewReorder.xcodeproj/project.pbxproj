@@ -13,6 +13,8 @@
 		42201A571CB5E86F001D2758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42201A551CB5E86F001D2758 /* Main.storyboard */; };
 		42201A591CB5E86F001D2758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42201A581CB5E86F001D2758 /* Assets.xcassets */; };
 		42201A5C1CB5E86F001D2758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42201A5A1CB5E86F001D2758 /* LaunchScreen.storyboard */; };
+		42201A661CB5F18D001D2758 /* XDCollectViewReorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42201A651CB5F18D001D2758 /* XDCollectViewReorder.m */; };
+		42201A6A1CB5F203001D2758 /* UICollectionView+XD_Reorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 42201A681CB5F203001D2758 /* UICollectionView+XD_Reorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		42201A581CB5E86F001D2758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42201A5B1CB5E86F001D2758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42201A5D1CB5E86F001D2758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42201A641CB5F18D001D2758 /* XDCollectViewReorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCollectViewReorder.h; sourceTree = "<group>"; };
+		42201A651CB5F18D001D2758 /* XDCollectViewReorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDCollectViewReorder.m; sourceTree = "<group>"; };
+		42201A671CB5F203001D2758 /* UICollectionView+XD_Reorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XD_Reorder.h"; sourceTree = "<group>"; };
+		42201A681CB5F203001D2758 /* UICollectionView+XD_Reorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XD_Reorder.m"; sourceTree = "<group>"; };
+		42201A691CB5F203001D2758 /* XDCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDCollectionViewDataSource.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 		42201A4B1CB5E86F001D2758 /* XDCollectViewReorder */ = {
 			isa = PBXGroup;
 			children = (
+				42201A631CB5F15F001D2758 /* XDCollectViewReorder */,
 				42201A4F1CB5E86F001D2758 /* AppDelegate.h */,
 				42201A501CB5E86F001D2758 /* AppDelegate.m */,
 				42201A521CB5E86F001D2758 /* ViewController.h */,
@@ -77,6 +85,18 @@
 				42201A4D1CB5E86F001D2758 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42201A631CB5F15F001D2758 /* XDCollectViewReorder */ = {
+			isa = PBXGroup;
+			children = (
+				42201A671CB5F203001D2758 /* UICollectionView+XD_Reorder.h */,
+				42201A681CB5F203001D2758 /* UICollectionView+XD_Reorder.m */,
+				42201A691CB5F203001D2758 /* XDCollectionViewDataSource.h */,
+				42201A641CB5F18D001D2758 /* XDCollectViewReorder.h */,
+				42201A651CB5F18D001D2758 /* XDCollectViewReorder.m */,
+			);
+			path = XDCollectViewReorder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				42201A541CB5E86F001D2758 /* ViewController.m in Sources */,
+				42201A6A1CB5F203001D2758 /* UICollectionView+XD_Reorder.m in Sources */,
+				42201A661CB5F18D001D2758 /* XDCollectViewReorder.m in Sources */,
 				42201A511CB5E86F001D2758 /* AppDelegate.m in Sources */,
 				42201A4E1CB5E86F001D2758 /* main.m in Sources */,
 			);
